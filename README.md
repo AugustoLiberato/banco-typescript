@@ -1,3 +1,13 @@
-sistema bancário para a peçoa poder fazer operações com sua conta do banco 
 
-Esse projeto utiliza além de TypesScript
+### Dê uma olhada nesse sistema bancario!
+- [link do vercel](https://banco-typescript.vercel.app/)
+
+### Sobre
+- Sistema bancário para a pessoa poder fazer operações com sua conta do banco 
+
+- Este projeto foi desenvolvido durante um curso da Alura. O objetivo principal foi aprofundar meus conhecimentos em TypeScript e entender como o código é convertido para JavaScript.
+
+### Foi utilizado
+- TypeScript
+- CSS
+- HTML
