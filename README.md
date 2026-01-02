@@ -1,3 +1,10 @@
-sistema bancário para a pessoa poder fazer operações com sua conta do banco 
 
-Esse projeto eu fiz acompanhando um curso da alura, e serviu para eu entender como que o o arquivo em typescript vira javascript
+[link do vercel](https://banco-typescript.vercel.app/)
+Sistema bancário para a pessoa poder fazer operações com sua conta do banco 
+
+Este projeto foi desenvolvido durante um curso da Alura. O objetivo principal foi aprofundar meus conhecimentos em TypeScript e entender como o código é convertido para JavaScript.
+
+# Foi utilizado
+TypeScript
+CSS
+HTML
