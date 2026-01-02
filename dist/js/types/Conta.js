@@ -1,4 +1,6 @@
 import { TipoTransacao } from "./TipoTransacao.js";
+//retorna o valor associado a chave saldo
+//JSON PARSE CONVERTE O VALOR PARA UM VALOR JAVASCRIPT(NESSE CASO)
 let saldo = JSON.parse(localStorage.getItem("saldo")) || 0;
 const transacoes = JSON.parse(localStorage.getItem("transacoes"), (key, value) => {
     if (key === "data") {
@@ -33,6 +35,7 @@ const Conta = {
     getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(transacoes);
+        //compara os dois milisegundos de t1.data e t2.data, o mais recente vai primeiro
         const transacoesOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
         let labelAtualGrupoTransacao = "";
         for (let transacao of transacoesOrdenadas) {
